@@ -1,0 +1,22 @@
+ Exercise 1 - Inheritance Physical/ Legal
+
+Create the following classes using inheritance:
+Person: String Name; String Address;
+PhysicalPerson: String CPF;
+LegalPerson: String CNPJ;
+
+ Exercise 2 - Visibility Protection
+
+Use the appropriate visibility modifiers for the classes Person, PhysicalPerson, and LegalPerson.
+
+ Exercise 3 - Information
+
+Create a function in the Person class to display the name. The child classes should override this function and include the CPF/CNPJ in the display.
+
+ Exercise 4 - Creating Logic
+
+Create a program where you can enter various different people. Use the concept of polymorphism to create only one list of Person, where both physical and legal persons will be stored. Also, create an option to print all the information of the people in the list, considering the use of ArrayList.
+
+ Exercise 5 - Exception Handling
+
+Implement exception handling where necessary.
